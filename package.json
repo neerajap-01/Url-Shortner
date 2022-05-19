@@ -1,0 +1,28 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This is the fourth team project for this cohort.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neerajap-01/Url-Shortner.git"
+  },
+  "author": "Neeraj Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neerajap-01/Url-Shortner/issues"
+  },
+  "homepage": "https://github.com/neerajap-01/Url-Shortner#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "redis": "3.1.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
